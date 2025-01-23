@@ -1,17 +1,10 @@
 # -*- coding: utf-8 -*-
 
 CONSTANT = 'github.com#?#div.Box-sc-g0xbh4-0.{}:-abp-has(a:-abp-contains({}))'
-KEYWORD = 'hKtuLA'
-BANLIST = [
-    'cheezcharmer',
-    'Dimples1337',
-    'zaohmeing',
-    'zhaohmng-outlook-com',
-    'codin-stuffs',
-    'zpc1314521',
-    'b0LBwZ7r5HOeh6CBMuQIhVu3-s-random-fork',
-    'pxvr-official',
-    'cirosantilli'
-]
+KEYWORD = 'flszRz'
+ruozhi_file_path = 'ruozhi'
 
+BANLIST = []
+with open(ruozhi_file_path, 'r') as f:
+    BANLIST.extend(f.read().splitlines())
 [ print(CONSTANT.format(KEYWORD, x)) for x in BANLIST ]
