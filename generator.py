@@ -2,7 +2,7 @@
 
 CONSTANT = 'github.com#?#div.Box-sc-g0xbh4-0.{}:-abp-has(a:-abp-contains({}))'
 KEYWORD = 'flszRz'
-ruozhi_file_path = 'ruozhi'
+ruozhi_file_path = 'crap'
 
 BANLIST = []
 with open(ruozhi_file_path, 'r') as f:
